@@ -24,6 +24,7 @@
 	display: flex;
 	flex-flow:column;
 	border-radius: 25px;
+	border: lightgray 1px solid;
 	
 }
 
@@ -35,7 +36,37 @@
 }
 .card-text{
 	text-align: left;
+  padding: 0 25px;
 }
 #image{
 	border-radius: 25px 25px 0 0;
+}
+
+.flexbox{
+	display:flex;
+}
+
+#gif-1{
+
+	background-image: url("https://media.giphy.com/media/VEzYdo930nTiTuVeMU/giphy.gif");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.overlay, .flexbox-img{
+	margin:60px;
+	width: 240px;
+	height: 240px;
+	border-radius: 16px;
+	border: rgb(250, 185, 178) 4px solid;
+}
+
+.flexbox-img{
+	opacity:1;
+	position: relative;
+}
+.overlay{
+	position:absolute;
+	background-color: black;
+	opacity: 1;
 }
