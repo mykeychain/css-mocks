@@ -1,0 +1,41 @@
+.sign-up-button{
+	background-color: dodgerblue;
+	color:white;
+	padding: 16px;
+	width: 120px;
+	border: none;
+	border-radius: 7px;
+	font-size: 16px;
+	font-weight: 1000;
+	letter-spacing: 1.5;
+}
+
+.sign-up-button:hover{
+	background-color: rgb(19, 97, 175);
+	cursor: pointer;
+}
+#mockup2{
+	margin:50px;
+}
+.card{
+	height: 480px;
+	width: 240px;
+	background-color:antiquewhite;
+	display: flex;
+	flex-flow:column;
+	border-radius: 25px;
+	
+}
+
+.card-title{
+	border-bottom: lightgray 1px solid;
+	padding:  12px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.card-text{
+	text-align: left;
+}
+#image{
+	border-radius: 25px 25px 0 0;
+}
